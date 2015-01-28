@@ -1,0 +1,8 @@
+[package]
+
+name = "braindump"
+version = "0.0.1"
+authors = ["Ruben Bakker <rubenbak@gmail.com>"]
+
+[dependencies.iron]
+version = "*"
