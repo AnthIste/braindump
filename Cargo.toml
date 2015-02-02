@@ -4,5 +4,13 @@ name = "braindump"
 version = "0.0.1"
 authors = ["Ruben Bakker <rubenbak@gmail.com>"]
 
-[dependencies.iron]
-version = "*"
+[dependencies]
+
+iron = "*"
+router = "*"
+mount="*"
+static="*"
+
+[dependencies.iron-defer]
+
+git = "https://github.com/AnthIste/iron-defer.git"
