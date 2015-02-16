@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <title>Braindump</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="skeleton/normalize.css">
+    <link rel="stylesheet" href="skeleton/skeleton.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
     <script src="http://fb.me/react-0.12.2.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   </head>
   <body>
-    <div id="content"></div>
+    <div class="container">
+      <div class="row">
+        <div class="one-half column" style="margin-top: 25%">
+          <h4>Basic Page</h4>
+          <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+
+          <!-- React content -->
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
 
     <!--
-    	Compile the JSX offline by running `jsx --watch src/ build`
-    	or running `make watch`
-	-->
+      Compile the JSX offline by running `jsx --watch src/ build` 
+      or running `make watch`
+    -->
     <script src="build/helloworld.js"></script>
   </body>
 </html>
